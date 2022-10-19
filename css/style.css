@@ -1,0 +1,171 @@
+#nuevo_monto{ display: none; }
+.cajaprin_cajero {
+  margin: 60px;
+  padding: 20px;
+  background: white;
+  height: auto;
+  width: auto;
+  color: white;
+}
+
+.cajaprin_cajero .vista {
+  padding: 50px;
+  background: rgb(52, 150, 180);
+  border-radius: 5px;
+  align-content: center;
+}
+
+/**la caja central donde estan las opciones*/
+.cajaprin_cajero .vista .pantalla {
+  width: 485px;
+  height: 300px;
+  background: rgb(168, 157, 157);
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+/**contenido de la caja de las opciones*/
+.cajaprin_cajero .vista .pantalla .contp{
+  padding: 100px 70px 100px 50px;
+
+}
+
+
+/**la caja derecha para los botones derecha*/
+.cajaprin_cajero .vista .botones_der {
+  margin-top: -300;
+
+}
+
+/**separaciones de los botones derecha*/
+.cajaprin_cajero .vista .botones_der ul li {
+  margin-bottom: 15px;
+}
+
+/**ancho de los botones derecha*/
+.cajaprin_cajero .vista .botones_der ul li a {
+  width: 100px;
+}
+
+.cajaprin_cajero .vista .botones_izq {
+  text-align: center;
+  margin-left: -30px;
+}
+
+.cajaprin_cajero .vista .botones_izq ul li {
+  margin-bottom: 15px;
+}
+
+.cajaprin_cajero .vista .botones_izq ul li a {
+  width: 90px;
+}
+
+.cajaprin_cajero .cont_btnb {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*caja de los numeros*/ 
+
+.cajaprin_cajero .cont_btnb .btnb {
+  width: 250px;
+  height: auto;
+  padding:10px 10px 0 10px;
+  background: rgb(52, 150, 180);
+}
+
+.cajaprin_cajero .cont_btnb .btnb ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cajaprin_cajero .cont_btnb .btnb ul li {
+  display: inline-block;
+}
+
+.cajaprin_cajero .cont_btnb .btnb ul li a {
+  width: 61px;
+  height: 61px;
+  margin-bottom: 9.5px;
+}
+
+/* donde esta el aceptar y cancelar NO BOTONES*/
+.cajaprin_cajero .cont_btnb .btnbi {
+  padding:10px 10px 0 0;
+  background: rgb(52, 150, 180);
+}
+
+.cajaprin_cajero .cont_btnb .btnbi ul{
+ padding-left: 0;
+}
+.cajaprin_cajero .cont_btnb .btnbi ul li {
+  list-style: none;
+  list-style-type: style width 20px;
+  list-style-type: style heigth 20px;
+}
+.cajaprin_cajero .cont_btnb .btnbi ul li a{
+  text-align: center;
+  width: 130px;
+  height: 61px;
+  margin-bottom: 9.5px;
+}
+
+#opciones {
+  width: 450px;
+  height: 300px;
+  background: gray;
+  margin-left: 110px;
+  text-align: left;
+}
+#opciones  .contp{
+  padding: 8px 20px 50px 20px;
+}
+ #opciones  .contp p{
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+#proceso3 {
+  width: 450px;
+  height: 300px;
+  background: gray;
+  margin-left: 110px;
+}
+#proceso3  .contp-der,.contp-izq{
+  padding: 20px 20px 50px 20px;
+}
+ #proceso3  .contp-der p,.contp-izq p{
+  font-size: 17px;
+  font-weight: 5px;
+  margin-bottom: 30px;
+}
+
+#proceso4 {
+  width: 450px;
+  height: 300px;
+  background: gray;
+  margin-left: 110px;
+}
+#proceso4 .contp{
+  padding: 100px 20px 100px 20px;
+}
+ #proceso4 .contp label{
+  font-size: 17px;
+  font-weight: 5px;
+}
+
+
+#proceso5 {
+  width: 450px;
+  height: 300px;
+  background: #A8C6FA;
+  margin-left: 110px;
+}
+#proceso5 .contp{
+  padding: 100px 20px 100px 20px;
+}
+ #proceso5 .contp label{
+  font-size: 17px;
+  font-weight: 5px;
+}
+
+#interfaz>#opciones,#proceso3,#proceso4,#proceso5{ display: none; }
